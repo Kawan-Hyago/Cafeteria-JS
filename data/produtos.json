@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "nome": "Espresso Clássico",
+    "descricao": "Café espresso intenso, encorpado e aromático, servido em dose tradicional.",
+    "foto": "https://placehold.co/600x400/png?text=Espresso+Classico",
+    "preco": 6.5,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 2,
+    "nome": "Espresso Duplo",
+    "descricao": "Duas doses de espresso para quem prefere um café mais intenso e marcante.",
+    "foto": "https://placehold.co/600x400/png?text=Espresso+Duplo",
+    "preco": 9.5,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 3,
+    "nome": "Cappuccino Italiano",
+    "descricao": "Espresso, leite vaporizado e espuma cremosa, finalizado com leve toque de canela.",
+    "foto": "https://placehold.co/600x400/png?text=Cappuccino+Italiano",
+    "preco": 12.9,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 4,
+    "nome": "Cappuccino Chocolate",
+    "descricao": "Cappuccino cremoso combinado com chocolate e finalização aveludada.",
+    "foto": "https://placehold.co/600x400/png?text=Cappuccino+Chocolate",
+    "preco": 14.5,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 5,
+    "nome": "Café com Leite",
+    "descricao": "Espresso equilibrado com leite quente e espuma delicada.",
+    "foto": "https://placehold.co/600x400/png?text=Cafe+com+Leite",
+    "preco": 9,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 6,
+    "nome": "Mocha",
+    "descricao": "Espresso, leite vaporizado e chocolate, formando uma bebida doce e cremosa.",
+    "foto": "https://placehold.co/600x400/png?text=Mocha",
+    "preco": 15.9,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 7,
+    "nome": "Latte Baunilha",
+    "descricao": "Café espresso com leite vaporizado e delicado toque de baunilha.",
+    "foto": "https://placehold.co/600x400/png?text=Latte+Baunilha",
+    "preco": 15.5,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 8,
+    "nome": "Latte Caramelo",
+    "descricao": "Latte cremoso com calda de caramelo e sabor suave e adocicado.",
+    "foto": "https://placehold.co/600x400/png?text=Latte+Caramelo",
+    "preco": 16.5,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 9,
+    "nome": "Chocolate Quente",
+    "descricao": "Chocolate quente cremoso, preparado com leite e chocolate selecionado.",
+    "foto": "https://placehold.co/600x400/png?text=Chocolate+Quente",
+    "preco": 13.9,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 10,
+    "nome": "Chá de Frutas Vermelhas",
+    "descricao": "Infusão aromática de frutas vermelhas, servida quente e levemente adocicada.",
+    "foto": "https://placehold.co/600x400/png?text=Cha+Frutas+Vermelhas",
+    "preco": 10.5,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 11,
+    "nome": "Chá de Camomila",
+    "descricao": "Infusão suave de camomila, perfeita para uma pausa tranquila.",
+    "foto": "https://placehold.co/600x400/png?text=Cha+Camomila",
+    "preco": 9.5,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 12,
+    "nome": "Chai Latte",
+    "descricao": "Leite vaporizado com especiarias aromáticas e sabor marcante de chai.",
+    "foto": "https://placehold.co/600x400/png?text=Chai+Latte",
+    "preco": 15.9,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 13,
+    "nome": "Café com Canela",
+    "descricao": "Espresso com leite quente e aroma delicado de canela.",
+    "foto": "https://placehold.co/600x400/png?text=Cafe+com+Canela",
+    "preco": 10.9,
+    "categoria": "Bebidas quentes"
+  },
+  {
+    "id": 14,
+    "nome": "Iced Coffee",
+    "descricao": "Café espresso servido com gelo, refrescante e intenso na medida certa.",
+    "foto": "https://placehold.co/600x400/png?text=Iced+Coffee",
+    "preco": 11.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 15,
+    "nome": "Iced Latte",
+    "descricao": "Espresso, leite gelado e gelo em uma combinação cremosa e refrescante.",
+    "foto": "https://placehold.co/600x400/png?text=Iced+Latte",
+    "preco": 14.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 16,
+    "nome": "Frapê de Café",
+    "descricao": "Bebida gelada batida com café, leite e gelo, com textura cremosa.",
+    "foto": "https://placehold.co/600x400/png?text=Frape+de+Cafe",
+    "preco": 17.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 17,
+    "nome": "Frapê de Chocolate",
+    "descricao": "Chocolate cremoso batido com gelo e leite, ideal para dias quentes.",
+    "foto": "https://placehold.co/600x400/png?text=Frape+Chocolate",
+    "preco": 18.5,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 18,
+    "nome": "Suco de Laranja",
+    "descricao": "Suco natural de laranja, fresco e preparado na hora.",
+    "foto": "https://placehold.co/600x400/png?text=Suco+de+Laranja",
+    "preco": 10.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 19,
+    "nome": "Suco de Maracujá",
+    "descricao": "Suco natural de maracujá com sabor tropical e refrescante.",
+    "foto": "https://placehold.co/600x400/png?text=Suco+de+Maracuja",
+    "preco": 11.5,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 20,
+    "nome": "Limonada Siciliana",
+    "descricao": "Limão-siciliano, água gelada e um toque suave de açúcar.",
+    "foto": "https://placehold.co/600x400/png?text=Limonada+Siciliana",
+    "preco": 12.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 21,
+    "nome": "Chá Gelado de Pêssego",
+    "descricao": "Chá preto gelado com sabor delicado de pêssego e toque refrescante.",
+    "foto": "https://placehold.co/600x400/png?text=Cha+Gelado+Pessego",
+    "preco": 11.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 22,
+    "nome": "Milk-shake de Morango",
+    "descricao": "Leite cremoso batido com morango e sorvete, servido bem gelado.",
+    "foto": "https://placehold.co/600x400/png?text=Milkshake+Morango",
+    "preco": 19.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 23,
+    "nome": "Milk-shake de Chocolate",
+    "descricao": "Sorvete e leite batidos com chocolate, em uma bebida cremosa e indulgente.",
+    "foto": "https://placehold.co/600x400/png?text=Milkshake+Chocolate",
+    "preco": 20.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 24,
+    "nome": "Água com Gás e Limão",
+    "descricao": "Água com gás, gelo e rodelas de limão para uma pausa leve e refrescante.",
+    "foto": "https://placehold.co/600x400/png?text=Agua+com+Gas",
+    "preco": 7.5,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 25,
+    "nome": "Smoothie de Frutas",
+    "descricao": "Frutas selecionadas batidas até formar uma bebida naturalmente cremosa.",
+    "foto": "https://placehold.co/600x400/png?text=Smoothie+de+Frutas",
+    "preco": 18.9,
+    "categoria": "Bebidas frias"
+  },
+  {
+    "id": 26,
+    "nome": "Pão de Queijo Tradicional",
+    "descricao": "Pão de queijo dourado por fora e macio por dentro, assado na hora.",
+    "foto": "https://placehold.co/600x400/png?text=Pao+de+Queijo",
+    "preco": 6.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 27,
+    "nome": "Pão de Queijo Recheado",
+    "descricao": "Pão de queijo quentinho recheado com uma porção generosa de requeijão cremoso.",
+    "foto": "https://placehold.co/600x400/png?text=Pao+de+Queijo+Recheado",
+    "preco": 9.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 28,
+    "nome": "Croissant de Queijo",
+    "descricao": "Massa folhada dourada e crocante com recheio cremoso de queijo.",
+    "foto": "https://placehold.co/600x400/png?text=Croissant+Queijo",
+    "preco": 12.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 29,
+    "nome": "Croissant de Presunto e Queijo",
+    "descricao": "Croissant amanteigado recheado com presunto e queijo derretido.",
+    "foto": "https://placehold.co/600x400/png?text=Croissant+Presunto+Queijo",
+    "preco": 15.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 30,
+    "nome": "Pão na Chapa",
+    "descricao": "Pão francês crocante na chapa com manteiga derretida.",
+    "foto": "https://placehold.co/600x400/png?text=Pao+na+Chapa",
+    "preco": 7.5,
+    "categoria": "Pães"
+  },
+  {
+    "id": 31,
+    "nome": "Pão na Chapa com Requeijão",
+    "descricao": "Pão crocante na chapa, finalizado com requeijão cremoso.",
+    "foto": "https://placehold.co/600x400/png?text=Pao+com+Requeijao",
+    "preco": 9.5,
+    "categoria": "Pães"
+  },
+  {
+    "id": 32,
+    "nome": "Misto Quente",
+    "descricao": "Pão tostado com presunto e queijo, servido quentinho e crocante.",
+    "foto": "https://placehold.co/600x400/png?text=Misto+Quente",
+    "preco": 12.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 33,
+    "nome": "Tostex de Frango",
+    "descricao": "Sanduíche tostado de frango desfiado, queijo e molho cremoso.",
+    "foto": "https://placehold.co/600x400/png?text=Tostex+Frango",
+    "preco": 16.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 34,
+    "nome": "Sanduíche Caprese",
+    "descricao": "Pão artesanal com tomate, muçarela, manjericão e toque de azeite.",
+    "foto": "https://placehold.co/600x400/png?text=Sanduiche+Caprese",
+    "preco": 17.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 35,
+    "nome": "Pão de Batata com Catupiry",
+    "descricao": "Pão macio de batata recheado com creme de queijo.",
+    "foto": "https://placehold.co/600x400/png?text=Pao+de+Batata",
+    "preco": 10.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 36,
+    "nome": "Focaccia de Alecrim",
+    "descricao": "Focaccia macia e aromática com azeite, sal e alecrim fresco.",
+    "foto": "https://placehold.co/600x400/png?text=Focaccia+Alecrim",
+    "preco": 11.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 37,
+    "nome": "Bagel de Salmão",
+    "descricao": "Bagel macio com cream cheese, salmão defumado e folhas frescas.",
+    "foto": "https://placehold.co/600x400/png?text=Bagel+Salmao",
+    "preco": 24.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 38,
+    "nome": "Bruschetta de Tomate",
+    "descricao": "Fatias de pão crocante com tomate temperado, manjericão e azeite.",
+    "foto": "https://placehold.co/600x400/png?text=Bruschetta",
+    "preco": 14.9,
+    "categoria": "Pães"
+  },
+  {
+    "id": 39,
+    "nome": "Bolo de Chocolate",
+    "descricao": "Fatia de bolo de chocolate macio com cobertura cremosa de chocolate.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+de+Chocolate",
+    "preco": 12.9,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 40,
+    "nome": "Bolo de Cenoura",
+    "descricao": "Bolo de cenoura fofinho com cobertura clássica de chocolate.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+de+Cenoura",
+    "preco": 11.9,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 41,
+    "nome": "Bolo de Fubá",
+    "descricao": "Bolo caseiro de fubá, macio e aromático, perfeito para acompanhar café.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+de+Fuba",
+    "preco": 10.9,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 42,
+    "nome": "Bolo de Laranja",
+    "descricao": "Bolo leve de laranja com aroma cítrico e sabor delicado.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+de+Laranja",
+    "preco": 11.5,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 43,
+    "nome": "Bolo de Limão",
+    "descricao": "Bolo macio de limão com cobertura suave e toque cítrico.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+de+Limao",
+    "preco": 12.5,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 44,
+    "nome": "Cheesecake de Frutas Vermelhas",
+    "descricao": "Cheesecake cremoso com cobertura de frutas vermelhas levemente ácidas.",
+    "foto": "https://placehold.co/600x400/png?text=Cheesecake",
+    "preco": 18.9,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 45,
+    "nome": "Red Velvet",
+    "descricao": "Fatia macia de red velvet com creme de queijo suave e aveludado.",
+    "foto": "https://placehold.co/600x400/png?text=Red+Velvet",
+    "preco": 19.9,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 46,
+    "nome": "Bolo de Coco",
+    "descricao": "Bolo fofinho de coco com cobertura cremosa e sabor tropical.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+de+Coco",
+    "preco": 12.9,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 47,
+    "nome": "Bolo de Banana com Canela",
+    "descricao": "Bolo caseiro de banana com aroma de canela e textura macia.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+Banana+Canela",
+    "preco": 13.5,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 48,
+    "nome": "Bolo de Maçã",
+    "descricao": "Bolo úmido de maçã com canela e toque delicado de açúcar.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+de+Maca",
+    "preco": 13.9,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 49,
+    "nome": "Bolo de Café",
+    "descricao": "Bolo macio com sabor marcante de café, ideal para acompanhar espresso.",
+    "foto": "https://placehold.co/600x400/png?text=Bolo+de+Cafe",
+    "preco": 13.9,
+    "categoria": "Bolos"
+  },
+  {
+    "id": 50,
+    "nome": "Torta de Morango",
+    "descricao": "Fatia de torta cremosa com morangos frescos e base delicada.",
+    "foto": "https://placehold.co/600x400/png?text=Torta+de+Morango",
+    "preco": 18.5,
+    "categoria": "Bolos"
+  }
+]

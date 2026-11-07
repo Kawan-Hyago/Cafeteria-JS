@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Café & Código</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo"><div><p class="marca">CAFÉ & CÓDIGO</p><h1>Seu café, seu pedido.</h1><p class="subtitulo">Escolha seus produtos, monte o carrinho e finalize o pedido.</p></div><button class="botao-carrinho" id="abrirCarrinho">🛒 Carrinho <span id="contadorCarrinho">0</span></button></header>
+<main class="container">
+<section class="filtros"><label for="busca">Buscar no cardápio</label><input id="busca" type="search" placeholder="Ex.: cappuccino, bolo, pão..."><div class="categorias" id="categorias"><button class="filtro ativo" data-categoria="Todos">Todos</button><button class="filtro" data-categoria="Bebidas quentes">Bebidas quentes</button><button class="filtro" data-categoria="Bebidas frias">Bebidas frias</button><button class="filtro" data-categoria="Pães">Pães</button><button class="filtro" data-categoria="Bolos">Bolos</button></div></section>
+<section><div class="secao-cabecalho"><div><span class="etiqueta">CARDÁPIO</span><h2>Escolha seus favoritos</h2></div><p id="quantidadeResultados">0 itens</p></div><div class="grid-produtos" id="listaProdutos"></div></section>
+<section class="bloco" id="historico"><div class="secao-cabecalho"><div><span class="etiqueta">HISTÓRICO</span><h2>Meus pedidos</h2></div></div><div class="lista-pedidos" id="listaPedidos"></div></section>
+<section class="bloco" id="relatorio"><div class="secao-cabecalho"><div><span class="etiqueta">RELATÓRIO</span><h2>Resumo das vendas</h2></div></div><div class="grid-resumo" id="resumoVendas"></div></section>
+</main>
+<div class="modal" id="modalCarrinho"><div class="modal-conteudo"><div class="modal-topo"><div><span class="etiqueta">PEDIDO</span><h2>Seu carrinho</h2></div><button class="fechar" id="fecharCarrinho">×</button></div><div id="itensCarrinho"><p class="vazio">Seu carrinho está vazio.</p></div><div class="resumo-pedido"><div><span>Subtotal</span><strong id="subtotal">R$ 0,00</strong></div><div><span>Taxa de serviço</span><strong id="taxa">R$ 0,00</strong></div><div class="total"><span>Total</span><strong id="total">R$ 0,00</strong></div></div><form id="formPagamento" class="pagamento"><h3>Finalizar pagamento</h3><label for="formaPagamento">Forma de pagamento</label><select id="formaPagamento" required><option value="">Selecione...</option><option>Pix</option><option>Cartão de crédito</option><option>Cartão de débito</option><option>Dinheiro</option></select><button class="botao-principal">Confirmar pagamento</button></form><div id="mensagemPagamento" class="mensagem"></div></div></div>
+<script type="module" src="app.js"></script>
+</body></html>
